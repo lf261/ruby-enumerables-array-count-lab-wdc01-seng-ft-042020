@@ -13,10 +13,9 @@ def count_empty_strings(array)
   
   array.count{ |x| x == "" }
   
-  array.count do |x| 
-    x == "" 
-    
-  end 
+  # array.count do |x| 
+  #   x == "" 
+  # end 
  
 
 end
